@@ -17,20 +17,20 @@ const Signup = (props) => {
     }
 
     return (
-        <div class="member-container d-flex flex-wrap">
-            <div class="member-left d-lg-flex align-items-lg-center justify-content-lg-end">
+        <div className="member-container d-flex flex-wrap">
+            <div className="member-left d-lg-flex align-items-lg-center justify-content-lg-end">
                 <div>
-                    <div class="member-form-box">
+                    <div className="member-form-box">
                         <form>
                             <h1>Enter your email</h1>
-                            <div class="form-box">
+                            <div className="form-box">
                                 <div class="form-group">
                                     <label for="email">Email</label>
-                                    <input type="email" class="form-control " id="email" name='email' value={props.users.email} onChange={handleChange} />
+                                    <input type="email" className="form-control " id="email" name='email' value={props.users.email} onChange={handleChange} />
                                 </div>
                             </div>
                             <div class="member-btn">
-                                <a href="#!" class="btn btn-default btn-lg btn-block" onClick={handleClick}>Next</a>
+                                <a href="#!" className="btn btn-default btn-lg btn-block" onClick={handleClick}>Next</a>
                             </div>
                         </form>
                     </div>
